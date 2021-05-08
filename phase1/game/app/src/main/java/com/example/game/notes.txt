@@ -1,0 +1,13 @@
+### CSC207 Project Notes - Snake ###
+
+# S N A K E #
+
+# Made 2 classes: HumanEngine & HumanActivity
+
+# Created the HumanActivity class that implements Activity
+
+# Note: when I first committed the HumanActivity and HumanEngine files they didn't show up on
+        Markus but I had my own local copy so I just copy/pasted all the code
+
+
+# Got rid of unnecessary comments

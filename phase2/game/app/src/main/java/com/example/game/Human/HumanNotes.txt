@@ -1,0 +1,30 @@
+### CSC207 Project Notes - Human ###
+
+# HUMAN #
+
+# Made 2 classes: HumanEngine & HumanActivity
+
+# Created the HumanActivity class that implements Activity
+
+# Note: when I first committed the HumanActivity and HumanEngine files they didn't show up on
+        Markus but I had my own local copy so I just copy/pasted all the code
+
+
+# Got rid of unnecessary comments
+
+# Game Rules:
+ - Have 3 levels
+ - 1:30 minutes for each level
+ - The level ends when time's up
+ - Level 1 has 10 coffees, level 2 has 5 coffees, level 3 has 3 coffees
+ - 1 coffee = 1 point
+ - Human tries to catch as many coffees as possible.
+ - Lose 1 health whenever the human hits the wall
+
+
+ # Nov. 26
+ - made a makeCoffee method to clean up code for newGame
+ - added/edited comments
+ - organized variables
+ - fixed makecoffee issue that spawned random number
+ - made it so that coffees only able to spawn under the text

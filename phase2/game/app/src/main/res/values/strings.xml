@@ -1,0 +1,71 @@
+<resources>
+    <string name="start_btn">Start</string>
+    <string name="timer">Timer</string>
+    <string name="question">Question</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="elapsedTime">00:00</string>
+    <string name="dialog_message">You Have Failed :(((((</string>
+    <string name="dialog_title">Failed</string>
+    <string name="intense_music">Intense Music</string>
+    <string name="relax_music">Relax Music</string>
+    <string name="life">Life: 100</string>
+    <string name="score">Score: 0</string>
+    <string name="health">Health: 100</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="EnterPassword">Enter Password</string>
+    <string name="button_login">Log in</string>
+    <string name="button_signup">Sign up</string>
+    <string name="start_score">Score: 0</string>
+    <string name="start_health">Health: 100</string>
+    <string name="start_play">Play</string>
+    <string name="app_name">Games</string>
+    <string name="start">Start Fight</string>
+    <string name="attack1">Attack 1</string>
+    <string name="attack2">Attack 2</string>
+    <string name="heal">Heal</string>
+    <string name="defence">Defence</string>
+    <string name="defText">What will you do?</string>
+    <string name="hpDisplay">HP: 100/100</string>
+    <string name="boss">BOSS</string>
+    <string name="bosshpDisplay">HP: 100/100</string>
+    <string name="pause">||</string>
+    <string name="victory">You Win!</string>
+    <string name="select">Select Your Character</string>
+    <string name="c1">Character 1</string>
+    <string name="c2">Character 2</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="TriviaButtonStart">Trivia Game</string>
+    <string name="HumanButtonStart">Human Game</string>
+    <string name="FightButtonStart">Fight Game</string>
+    <string name="PauseString">Pause</string>
+    <string name="ContinueString">Continue</string>
+    <string name="QuitString">Quit</string>
+    <string name="l1">Level 1</string>
+    <string name="currScore">Score: 0</string>
+    <string name="LeaderboardButtonStart">Leaderboard</string>
+    <string name="name"> Enter a nickname </string>
+    <string name="nickname_button">Send</string>
+    <string name="nickname">Type in a nick name for the student</string>
+    <string name="human_instruction">A university student is trying to get coffee. Click to change directions to help the student get as many coffees as she can!</string>
+    <string name="levelString">Level: 1</string>
+    <string name="movesUsed">Moves Used: 0</string>
+
+    <string-array name="leaderboard_array">
+        <item>Trivia</item>
+        <item>Human</item>
+        <item>Fight</item>
+    </string-array>
+
+    <string-array name="gameMode_array">
+        <item>Trivia Game</item>
+        <item>Human Coffee Game</item>
+        <item>Fighting RPG Game</item>
+    </string-array>
+    
+    <string-array name="musicSelectionTrivia_array">
+        <item>Relax Music</item>
+        <item>Intense Music</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Dashboard.IntroActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="75dp"
+        android:text="Dashboard"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:text="Hello: user"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/selectGameMode"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="startGameMode"
+        android:layout_marginBottom="20dp"
+        android:text="Play"/>
+
+    <Button
+        android:id="@+id/startLeaderboard"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="startLeaderboard"
+        android:layout_marginBottom="20dp"
+        android:text="@string/LeaderboardButtonStart"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="startLogout"
+        android:gravity="center"
+        android:text="Logout" />
+
+
+
+
+</LinearLayout>

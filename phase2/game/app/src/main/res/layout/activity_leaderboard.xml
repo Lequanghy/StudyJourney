@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".Leaderboard.LeaderboardActivity">
+
+    <TextView
+        android:id="@+id/leaderboardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Leaderboard"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="Main Menu"
+        android:onClick="startIntro"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spinner"
+        android:layout_above="@id/backButton"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="rgearg"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/leaderboardText"
+        android:layout_toEndOf="@id/selectionText"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/selectionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="15dp"
+        android:text="Select which leaderboard to display:"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/leaderboardText"
+        android:layout_marginTop="50dp" />
+</RelativeLayout>

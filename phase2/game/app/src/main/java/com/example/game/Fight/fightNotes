@@ -1,0 +1,70 @@
+Notes for the fight minigame related classes.
+
+##############
+Code Added: Fighter class, Move class, TextTest class
+Fighter -- Represents a fighter in the game (either the player or computer)
+Move -- Represents a move, calculates a random effect amount based on its given range
+TextTest -- Created to test the functionality of the fighting in a text based format
+
+Next Steps: Work on visuals for the game, set up the buttons so the player actions are based on
+input
+
+##############
+Added some suggestion comments in Fighter to improve gameplay and memory efficiency
+
+##############
+Code Added: MainActivity, DisplayGame (activity)
+Set up basic visuals for a start screen in MainActivity. Set up basic visuals and button
+functionality in the game in DisplayGame.
+When a button is pressed a turn begins. Currently DisplayGame view is not set up to change upon
+user input.
+
+To Do: Use textbox to display information about each turn to the player. Update hp display for
+player and boss based on getHp() during the fight. Add graphics for boss and player character.
+
+##############
+Set up an hp status box for the boss. Set hp text boxes to update after each turn.
+
+##############
+Previous commit: textbox now updates with bosses' attack used displayed
+
+##############
+When a character wins a message is displayed. Move boxes no longer functional for player when a
+win occurs.
+
+##############
+Fixed some style comments given by Android studio. Changed the win and lose display message.
+
+##############
+Added more comments to Fight game code: DisplayGame, Fighter, and Move classes
+
+##############
+Added character select display to MainActivity for the fight game.
+To Do: Send characterSelect variable to next fight game screen to determine which image will
+display where (ie which image will be the player and which will be the boss).
+
+##############
+Added sound effects to fight game
+
+##############
+Fixed error in DisplayGame that made player's life start at -1 instead of 100
+
+##############
+Added image for the boss. Added character image based on player menu selection.
+
+##############
+Simple leveling system set up. 3 levels, boss starting hp is higher each time.
+
+#############
+Added score recorder to Fight game
+
+#############
+Changed code so higher amount of hp for boss each level is reflected in boss hp display and maximum
+amount boss can heal to.
+
+#############
+Added 3rd statistic. Counts how many moves the player executes in a level and removes that amount
+from the amount of life they have left when they win to get their score.
+
+#############
+Background music added to fight game.

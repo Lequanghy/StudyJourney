@@ -1,0 +1,2 @@
+include ':app', ':trivia', ':fight', ':fighttrial', ':firstscreens', ':human'
+rootProject.name='game'

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".Trivia.Trivia">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:text="Trivia"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/musicSelection"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="startQuiz"
+        android:text="@string/start_btn" />
+
+    <Button
+        android:id="@+id/button_quit"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="startQuit"
+        android:text="@string/QuitString" />
+
+    <TextView
+        android:id="@+id/text_view_music_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/rectangle_drawable_back"
+        android:text="Pick one song then press START"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/musicSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_music_playlist"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

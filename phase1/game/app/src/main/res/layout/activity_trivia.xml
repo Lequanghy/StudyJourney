@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".Trivia">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+
+        />
+
+    <TextView
+        android:id="@+id/text_view_life_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/life"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/text_view_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_life_left"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="@string/score"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="startQuiz"
+        android:text="@string/start_btn" />
+
+    <TextView
+        android:id="@+id/text_view_music_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_score"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        android:background="@drawable/rectangle_drawable_back"
+        android:text="Pick one song then press START"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/music_mii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_music_playlist"
+        android:layout_centerHorizontal="true"
+        android:onClick="musicMii"
+        android:text="@string/relax_music"
+
+        />
+
+    <Button
+        android:id="@+id/music_wii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music_mii"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="musicWii"
+        android:text="@string/intense_music"
+
+        />
+</RelativeLayout>
